@@ -5,6 +5,7 @@ import React, { useState, useEffect,useRef } from 'react';
 import s from './index.module.scss'
 import SeriesHome from '../components/SeriesHome/SeriesHome';
 import Series from '../src/App.tsx';
+import Footer from '../components/Footer/Footer';
 
 
 
@@ -32,10 +33,11 @@ const Component = (props) => {
       
      
    </div>
+   
    }
 
    <div className={s.series_container}><Series /></div>
-   
+   <Footer/>
 
   </>)
 }
