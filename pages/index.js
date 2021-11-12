@@ -4,6 +4,7 @@ import Revealer from '../components/Revealer/Revealer';
 import React, { useState, useEffect,useRef } from 'react';
 import s from './index.module.scss'
 import SeriesHome from '../components/SeriesHome/SeriesHome';
+import Series from '../src/App.tsx';
 
 
 
@@ -27,12 +28,14 @@ const Component = (props) => {
    :
    <div className={s.container}>
       {/* <Revealer img={'/cuadro2.png'} height={`${bubbleSizes}px`} width={`${bubbleSizes}px`}/> */}
-      <Revealer img={'/cuadro1.png'} height="300px" width="300px"/>
+      <Revealer img={'/10.JPG'} height="300px" width="300px"/>
       
      
    </div>
    }
-   <SeriesHome />
+
+   <div className={s.series_container}><Series /></div>
+   
 
   </>)
 }
