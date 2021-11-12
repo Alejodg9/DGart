@@ -48,11 +48,11 @@ export const Landing = ({ item, animals }: Props) => {
             <img src={animal.url} className="landing__image" alt="Animal"></img>
             <div className="landing__details">
               <div className="landing__details__label">
-                SPECIES
+                SERIES
                 <span className="landing__details__label-bar"></span>
               </div>
               <span id="title" className="landing__details__text landing__details__text-hidden">{animal.species}</span>
-              <div className="landing__details__label">
+              {/* <div className="landing__details__label">
                 AGE
                 <span className="landing__details__label-bar"></span>
               </div>
@@ -61,7 +61,7 @@ export const Landing = ({ item, animals }: Props) => {
                 BIO
                 <span className="landing__details__label-bar"></span>
               </div>
-              <span id="bio" className="landing__details__text landing__details__text-small">{animal.bio}</span>
+              <span id="bio" className="landing__details__text landing__details__text-small">{animal.bio}</span> */}
             </div>
           </div>
         );

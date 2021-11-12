@@ -64,7 +64,7 @@ export const SliderEffect = (opts: {
       antialias: false,
   });
 
-  renderer.setClearColor( 0x23272A, 1.0 );
+  renderer.setClearColor( 0xffffff, 1.0 );
   renderer.setSize( renderW, renderH );
   parent.appendChild( renderer.domElement );
 
@@ -79,7 +79,7 @@ export const SliderEffect = (opts: {
   });
 
   let scene = new THREE.Scene();
-  scene.background = new THREE.Color( 0x23272A );
+  scene.background = new THREE.Color( 0xffffff );
   let camera = new THREE.OrthographicCamera(
       renderWidth / -2,
       renderWidth / 2,
