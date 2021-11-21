@@ -15,7 +15,7 @@ function Series() {
       url: 'https://i.ibb.co/dJ53J5m/1-el-secreto-1.jpg'
     },
     {
-      species: 'Serie 2',
+      species: 'Pinturas',
       age: 8,
       bio: 'Love shrimps',
       url: 'https://i.ibb.co/nCxnrMS/2.png'

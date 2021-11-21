@@ -44,7 +44,7 @@ export const Landing = ({ item, animals }: Props) => {
     <div className="landing">
       { animals.map((animal, index) => {
         return (
-          <div style={{ width: '100%', height: '100%' }} key={index} hidden={index !== item}>
+          <div /* style={{ width: '100%', height: '100%' }} */ key={index} hidden={index !== item}>
             <img src={animal.url} className="landing__image" alt="Animal"></img>
             <div className="landing__details">
               <div className="landing__details__label">

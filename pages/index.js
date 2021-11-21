@@ -3,9 +3,10 @@ import Image from 'next/image'
 import Revealer from '../components/Revealer/Revealer';
 import React, { useState, useEffect,useRef } from 'react';
 import s from './index.module.scss'
-import SeriesHome from '../components/SeriesHome/SeriesHome';
 import Series from '../src/App.tsx';
 import Footer from '../components/Footer/Footer';
+
+
 
 
 
