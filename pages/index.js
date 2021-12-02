@@ -30,7 +30,7 @@ const Component = (props) => {
    :
    <div className={s.container}>
       {/* <Revealer img={'/cuadro2.png'} height={`${bubbleSizes}px`} width={`${bubbleSizes}px`}/> */}
-      <Revealer img={'/10.JPG'} height="400px" width="400px"/>
+      <Revealer img={'/10.JPG'} height="300px" width="300px"/>
       
      
    </div>

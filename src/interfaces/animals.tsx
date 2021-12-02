@@ -3,4 +3,6 @@ export interface Animal {
   species: string;
   age: number;
   bio: string;
+  height: number;
+  /* px: string; */
 }

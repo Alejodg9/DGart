@@ -1,13 +1,12 @@
 .landing {
-    width:400px;
+   
     margin-right: 0;
 
 
     background-color: white;
 
     &__image {
-     height: 700px;
-        
+             
         position: relative;
         z-index: -1;
         background-color: white;
@@ -20,6 +19,7 @@
         left: 50%;
         transform: translate(-50%, -50%);
         z-index: 2;
+        
        
     }
 
