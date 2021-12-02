@@ -41,11 +41,18 @@ export const Landing = ({ item, animals }: Props) => {
   }, [item, effects]);
 
   return (
-    <div className="landing">
+    <>
+    {animals.map(element =>
+    
+  
+    
+
+    <div className="landing" style={{width: `${element.width}px`}}>
       { animals.map((animal, index) => {
         return (
           <div /* style={{height: '50px'}} */ key={index} hidden={index !== item}>
-            <img  src={animal.url} style={{ height: '500px', width: '500px'}} className="landing__image" alt="cuadro"></img>
+            <img  src={animal.url}  style={{ height: `${element.height}px`}}  className="landing__image" alt="cuadro"></img>
+
             <div className="landing__details">
               <div className="landing__details__label">
                 SERIES
@@ -67,5 +74,7 @@ export const Landing = ({ item, animals }: Props) => {
         );
       })}
     </div>
+    )}
+    </>
   )
 }

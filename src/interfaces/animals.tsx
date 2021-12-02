@@ -4,5 +4,5 @@ export interface Animal {
   age: number;
   bio: string;
   height: number;
-  /* px: string; */
+  width: number;
 }

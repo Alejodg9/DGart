@@ -13,14 +13,16 @@ function Series() {
       age: 2,
       bio: 'Love snacks',
       url: 'https://i.ibb.co/dJ53J5m/1-el-secreto-1.jpg',
-      height: 900,
+      height: 1000,
+      width: 1000,
     },
     {
       species: 'Pinturas',
       age: 8,
       bio: 'Love shrimps',
       url: 'https://i.ibb.co/gr9HVgT/IMG-6115-HEIC.jpg',
-      height: 150
+      height: 1000,
+      width: 4100,
     },
    /*   {
       species: 'Siberian Tiger',

@@ -1,12 +1,14 @@
 .landing {
    
     margin-right: 0;
+    width:300px;
 
 
     background-color: white;
 
     &__image {
-             
+        
+        height:500px;     
         position: relative;
         z-index: -1;
         background-color: white;
